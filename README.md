@@ -1,11 +1,22 @@
 # AI vs. Human Text Detector
 
-An individual project by **Joshua-Bernard Takere** exploring how machine learning can distinguish human-written and AI-generated text.
+I built this individual project as a Computer Science student at **Texas Tech University** to explore a practical question: can machine learning recognize differences between human-written and AI-generated text?
 
 ## Overview
+I worked through the text classification process, from cleaning text and preparing features to comparing models and building a simple interface for trying predictions. My goal was to understand how different models approach the same problem and make the results easier to explore.
+
 The training notebook compares six model families: SVM (LinearSVC), decision tree, AdaBoost, feedforward neural network, LSTM, and CNN. The Streamlit app serves the three available traditional models with a model selector.
 
 **Tools:** Python, scikit-learn, TF-IDF, TensorFlow/Keras, pandas, Streamlit.
+
+## My contribution
+- Prepared text for modeling and used TF-IDF to turn writing into numerical features.
+- Explored six model families in a training notebook and compared classification metrics.
+- Saved the SVM, decision tree, and AdaBoost models for reuse.
+- Built a Streamlit app that lets users enter text and select one of the three saved models.
+
+## What I learned
+This project strengthened my skills in Python, text preprocessing, model evaluation, and turning a notebook workflow into an application. It also taught me to question benchmark results and recognize the limits of automated authorship predictions.
 
 ## Run the app
 Use Python 3.11 or 3.12. From this repository folder:
